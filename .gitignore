@@ -1,0 +1,9 @@
+apify_storage
+node_modules
+.idea
+.env
+log
+tmp
+debug.log
+db*.json
+package-lock.json

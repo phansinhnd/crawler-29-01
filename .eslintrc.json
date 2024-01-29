@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "node": true
+  },
+  "globals": {
+    "$": true
+  },
+  "rules":{
+    "linebreak-style": 0
+  }
+}

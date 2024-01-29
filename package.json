@@ -1,0 +1,50 @@
+{
+	"name": "vtvtravel-crawler",
+	"version": "0.0.1",
+	"description": "Crawler bot for vtvtravel",
+	"dependencies": {
+		"apify": "^0.20.0",
+		"axios": "^0.19.2",
+		"csv-parser": "^2.3.2",
+		"diacritics": "^1.3.0",
+		"dotenv": "^8.2.0",
+		"fs": "^0.0.1-security",
+		"lodash": "^4.17.15",
+		"lowdb": "^1.0.0",
+		"md5": "^2.2.1",
+		"mongoose": "^7.4.3",
+		"path": "^0.12.7",
+		"phin": "^3.4.1",
+		"winston": "^3.2.1",
+		"winston-transport": "latest"
+	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb": "^18.1.0",
+		"eslint-plugin-import": "^2.20.1",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-react": "^7.19.0",
+		"eslint-plugin-react-hooks": "^2.5.0",
+		"mongodb": "^5.7.0"
+	},
+	"scripts": {
+		"foody.vn": "node ./bots/foody.vn/restaurants/index.js",
+		"sync.foody.vn": "node ./sync/foody.vn/restaurants/index.js",
+		"agoda.com": "node --inspect ./bots/agoda.com/index.js",
+		"api_foody.vn": "node --inspect ./bots/api_foody.vn/main/index.js",
+		"pasgo.vn": "node ./bots/pasgo.vn/restaurants/index.js",
+		"sync.pasgo.vn": "node ./sync/pasgo.vn/restaurants/index.js",
+		"chudu24.com": "node --inspect ./bots/chudu24.com/resort/index.js",
+		"sync.chudu24.com": "node ./sync/chudu24.com/resort/index.js",
+		"luxstay.com": "node --inspect ./bots/luxstay.com/homestay/index.js",
+		"ticketbox.vn": "node --inspect ./bots/ticketbox.vn/events_festivals/index.js",
+		"sync.ticketbox.vn": "node --inspect ./sync/ticketbox.vn/events_festivals/index.js",
+		"tripadvisor.com.vn": "node --inspect bots/tripadvisor.com.vn/restaurants/index.js",
+		"sync.tripadvisor.com.vn": "node --inspect ./sync/tripadvisor.com.vn/restaurants/index.js",
+		"saveDB.tripadvisor.com.vn": "node --inspect ./save_DB/tripadvisor.com.vn/restaurants/index.js",
+		"loship.vn": "node bots/loship.vn/restaurants/index.js",
+		"sync.loship.vn": "node ./sync/loship.vn/restaurants/index.js"
+	},
+	"author": "trungnq@namviet-corp.com.vn",
+	"license": "ISC"
+}
